@@ -3,7 +3,7 @@
 
 ## Link(s) to the hosted API
 
-*   [administrative api](http://localhost:3000)
+*   [administrative api swagger](https://administrative-production.up.railway.app/api)
 
 ## Instructions for running a local instance of the API server
 

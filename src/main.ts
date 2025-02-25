@@ -15,6 +15,9 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, documentFactory);
 
   app.useGlobalPipes(new ValidationPipe());
+
+  console.log('Starting API at port: ', process.env.PORT);
   await app.listen(process.env.PORT ?? 3000);
 }
+
 bootstrap();
